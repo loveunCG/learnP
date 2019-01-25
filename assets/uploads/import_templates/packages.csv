@@ -1,0 +1,11 @@
+package_name,package_for,description,credits,discount_type,discount,package_cost
+Package 1,Student,,10,Value,10,50
+Package 2,Tutor,,52,Percent,5,100
+Package 3,Institute,,45,Value,2,56
+Package 4,All,,10,Value,1,363
+Package 5,Student,,52,Percent,3,23
+Package 6,Tutor,,45,Percent,6,50
+Package 7,Institute,,10,Percent,9,100
+Package 8,All,,52,Value,8,56
+Package 9,Student,,45,Percent,2,50
+Package 10,Tutor,,23,Value,1,100

@@ -1,0 +1,261 @@
+/*Custom font icons*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?8x34pp');
+    src:  url('../fonts/icomoon.eot?8x34pp#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?8x34pp') format('truetype'),
+        url('../fonts/icomoon.woff?8x34pp') format('woff'),
+        url('../fonts/icomoon.svg?8x34pp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adduser:before {
+    content: "\e900";
+}
+.icon-arrow:before {
+    content: "\e901";
+}
+.icon-arrowo:before {
+    content: "\e902";
+}
+.icon-banner:before {
+    content: "\e903";
+}
+.icon-calendar:before {
+    content: "\e904";
+}
+.icon-chart:before {
+    content: "\e905";
+}
+.icon-comments:before {
+    content: "\e906";
+}
+.icon-creditcard:before {
+    content: "\e907";
+}
+.icon-edit:before {
+    content: "\e908";
+}
+.icon-heart:before {
+    content: "\e909";
+}
+.icon-label:before {
+    content: "\e90a";
+}
+.icon-medal:before {
+    content: "\e90b";
+}
+.icon-playstore:before {
+    content: "\e90c";
+}
+.icon-question:before {
+    content: "\e90d";
+}
+.icon-scoreboard:before {
+    content: "\e90e";
+}
+.icon-smartphone:before {
+    content: "\e90f";
+}
+.icon-sort:before {
+    content: "\e910";
+}
+.icon-speech:before {
+    content: "\e911";
+}
+.icon-star:before {
+    content: "\e912";
+}
+.icon-tag:before {
+    content: "\e913";
+}
+.icon-time:before {
+    content: "\e914";
+}
+.icon-users:before {
+    content: "\e915";
+}
+.icon-video:before {
+    content: "\e916";
+}
+
+.video-description h4{
+    margin-top: 30px;
+}
+.related-videos li {
+    color: #534051;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.related-videos li .fa {
+    color: #e27d7f;
+}
+
+.related-videos li a {
+    color: #e27d7f;
+    margin-right: 3px;
+    text-decoration: underline;
+}
+@media(min-width:768px){
+    .related-videos li:last-child{
+        float: right;margin-right: 0;font-weight: bold;
+    }
+}
+.get-video-attachment{ padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ebebeb;}
+.get-video-attachment ul li{
+     border-bottom: 1px solid #ebebeb;padding-top: 15px;
+}
+.get-video-attachment ul li a{
+    color: #534051;
+    font-size: 15px;
+    font-weight: 400;
+}
+.get-video-attachment h4 {
+    margin-top: 0;
+    color: #fff;
+    font-weight: bold;
+    background: #534051;
+    margin: -20px;
+    margin-bottom: 0;
+    padding: 12px 0;
+    text-align: center;
+}
+.get-video-attachment ul li a:hover{color:#e27d7f }
+.get-video-attachment ul li a .fa{margin-right: 5px;}
+.get-video-course {
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ebebeb;
+}
+.get-video-course .sell-price {
+    margin: 0;margin-bottom:20px;text-align: center;font-weight: 700;
+}
+.get-video-course .list{
+
+    margin-top: 30px;
+}
+.get-video-course h4,.get-video-course .link{color: #e27d7f}
+.get-video-course p{font-size: 14px;}
+
+.list .list-item {
+    margin-bottom: 5px;
+    display: flex;
+}
+.list .list-left {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.list .list-right {
+    font-weight: bold;
+}
+
+.lessions-list>li{ display: inline-block;margin-left: 10px;color: #534051;
+    font-size: 15px;
+    font-weight: 400; }
+.lessions-list>li>a{color: #e27d7f;font-size: 18px}
+.lessions-list>li>a:hover{color: #534051}
+.list-group-item {
+    padding: 12px 15px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;background: #f5f5f5;
+}
+.related-itm-img {
+    height: auto;
+}
+.related-link,.related-link a {
+    color: #534051;font-size: 14px;
+}
+.related-link a:hover {
+    color: #e27d7f;
+}
+/*Login Modal*/
+.login-modal .sign-block {
+    margin: auto;display: block;
+}
+@media(min-width:768px){
+    .login-modal .modal-dialog{
+        max-width: 480px;
+    }
+    .login-modal .modal-body{
+    padding: 25px;
+}
+    .login-modal .signin-btn {
+    min-width: 220px
+}
+    .lessions-list{
+        float: right;
+    }
+}
+.login-modal .sign-block h2{
+    margin-top: 0;
+}
+/*payment-methods-list*/
+.payment-methods-list li{display: inline-block;
+    width: 31%;margin: 20px 4px;border: 1px solid #f1f1f1;
+    padding: 10px;
+}
+@media(max-width:768px){
+    .payment-methods-list li{
+        width: 47%;
+    }
+    .mobile-effect {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        background: #ffffff;
+        border: 1px solid #f1f1f1;
+        padding: 4px;
+        z-index: 99;
+}
+    .mobile-effect .btn,.mobile-effect .btn-accept{max-width: 100%;width:100%;}
+    .related-videos li{margin-bottom: 10px;}
+}
+.payment-methods-list.radio .item-content{position: relative;top: -3px;}
+.pb-pay-amount, .razorpay-payment-button {
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #2eaf83;
+    min-width: 150px;
+}
+
+.pb-pay-amount:hover,.pb-pay-amount:hover, .razorpay-payment-button:hover {
+    color: #ffffff;    background-color: #299c67;
+}
+.pb-payment-terms a{color:#e27d7f; }
+
+
+
+

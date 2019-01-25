@@ -1,0 +1,11 @@
+name,description,code,sort_order,is_popular
+Course 1,COurse Description 1,ctc-1,1,1
+Course 2,Course Description 2,ctc-2,2,0
+Course 3,COurse Description 3,ctc-3,3,1
+Course 4,COurse Description 4,ctc-4,4,0
+Course 5,COurse Description 5,ctc-5,5,1
+Course 6,COurse Description 6,ctc-6,6,0
+Course 7,COurse Description 7,ctc-7,6,1
+Course 8,COurse Description 8,ctc-8,7,0
+Course 9,COurse Description 9,ctc-9,8,1
+Course 10,COurse Description 10,ctc-10,9,0

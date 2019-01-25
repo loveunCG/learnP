@@ -1,0 +1,11 @@
+title,description,required,allowed_formats,certificate_for
+Certificate 1,Description 1,Yes,jpg^^gif^^png^^jpeg,tutors
+Certificate 2,Description 2,No,jpg^^gif^^png^^jpeg,institutes
+Certificate 3,Description 3,Yes,jpg^^gif^^png^^jpeg,students
+Certificate 4,Description 4,No,jpg^^gif^^png^^jpeg,tutors
+Certificate 5,Description 5,Yes,jpg^^gif^^png^^jpeg,institutes
+Certificate 6,Description 6,No,jpg^^gif^^png^^jpeg,students
+Certificate 7,Description 7,Yes,jpg^^gif^^png^^jpeg,tutors
+Certificate 8,Description 8,No,jpg^^gif^^png^^jpeg,institutes
+Certificate 9,Description 9,Yes,jpg^^gif^^png^^jpeg,students
+Certificate 10,Description 10,No,jpg^^gif^^png^^jpeg,students

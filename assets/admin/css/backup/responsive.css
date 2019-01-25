@@ -1,0 +1,213 @@
+
+/*===========> ***Responsive CSS*** <===========*/
+
+/* Media Device 1366px*/
+@media screen and (max-width:1366px) {
+ 
+.dashboardMenu ul li {
+	padding: 20px 7px; max-width:216px;
+}
+.dashboardMenu ul li h2 {
+	font-size: 15px;
+	padding: 8px 0px 8px 5px;
+}
+.mailcruadOparations ul li{   padding:25px 8px; }
+.backbtn, .forbtn{padding:15px 2px;}
+.userList li img{  
+ 	height: 56px;
+	padding: 3px;
+    width: 55px; margin:0; }
+	.user_list_Conte small {
+  	font-size: 12px;
+    padding: 10px 0;
+    width: 100%;
+}
+ 
+}
+
+/* Media Device 1366px*/
+
+
+/* Media Device 1024px*/
+@media screen and (max-width:1024px) {
+	
+.backForward {
+     clear: both;
+    display: table;
+}
+.backbtn, .forbtn{ width:100%; padding:15px 0; display:block; }
+.backbtn .btn:last-child, .forbtn .btn:last-child{ width: 140px;  }
+.mailcruadOparations ul li{
+	 padding:16px	 ;
+    text-align:left;
+    width: 100%;
+	border-bottom: 1px solid #ececec;
+	}	
+}
+/* Media Device 1024px*/
+
+/* Media Device 900px*/
+@media screen and (max-width:900px) {
+.digiTable {
+	display: block;
+	overflow: auto;
+	white-space: nowrap;
+	width: auto;
+}
+
+.digiTable td, th{  padding: 10px 55px 10px 10px; }
+.backForward {
+     clear: both;
+    display: table;
+}
+.backbtn, .forbtn{ width:100%; padding:15px 0; display:block; }
+.backbtn .btn:last-child, .forbtn .btn:last-child{ width: 140px;  }
+.mailcruadOparations ul li{
+	 padding:16px	 ;
+    text-align:left;
+    width: 100%;
+	border-bottom: 1px solid #ececec;
+	}
+	.userList ul li{  padding: 9px; }
+}
+
+ 
+/* Media Device 900px*/
+
+
+/* Media Device 800px*/
+@media screen and (max-width:800px) {
+.dashboardMenu ul li {
+	width: 50%;
+}
+ 
+.dashboardMenu li::after{ display:none; }
+.chat li{ padding:0; }	
+ .chat-body {
+    clear: both;
+    float: left;
+    margin: 0  !important;
+    width: 100%;
+}
+ 
+}
+
+/* Media Device 800px*/
+
+
+/* Media Device 768px*/
+@media screen and (max-width:768px) {
+
+.padding-r, .padding-l{ padding:0; }
+.group.twoFeilds{  margin: 16px 0 0; }
+}
+/* Media Device 768px*/
+
+/* Media Device 736px*/
+@media screen and (max-width:736px) {
+ 
+.dg_brand {
+	width: 100%;
+}
+.sidebar-toggle-box {
+	right: 0;
+}
+ 
+.dashboardMenu ul li + li {
+	border-bottom: 1px solid #f3f5f9;
+}
+.dashboardMenu ul li {
+	width: 100%;
+}
+.dashboardMenu li::after {
+	display: none;
+}
+ul.dg-sidebar-menu{ padding: 1px 0 0; }
+
+}
+
+/* Media Device 736px*/
+
+/* Media Device 600px*/
+@media screen and (max-width:640px) {
+	.dataTableFeilds input {
+	width: inherit;
+}
+.dataTableFeilds {
+	width: 100%;
+}
+.dataTableFeilds select {
+	width: -moz-available;
+	width: inherit;
+}
+}
+/* Media Device 600px*/
+
+
+/* Media Device 480px*/
+@media screen and (max-width:480px) {
+.dataTableFeilds input {
+	width: inherit;
+}
+.dataTableFeilds {
+	width: 100%;
+}
+.dataTableFeilds {
+	margin: 10px 0 10px;
+}
+.dataTableFeilds select {
+	width: -moz-available;
+	width: inherit;
+}
+.mailcruadOparations ul li{
+	 padding:16px	 ;
+    text-align:left;
+    width: 100%;
+	border-bottom: 1px solid #ececec;
+	}
+}
+
+/* Media Device 480px*/
+
+
+/* Media Device 479px*/
+@media screen and (max-width:479px) {
+.chat li{ padding:0; }	
+ .chat-body {
+    clear: both;
+    float: left;
+    margin: 0  !important;
+    width: 100%;
+}
+}
+
+
+/* Media Device 320px*/
+@media screen and (max-width:360px) and (min-width:320px) {
+.top-nav > li > a {
+	padding: 23px 26px 22px 16px;
+	vertical-align: middle;
+}
+.tabs li {
+	margin: 1px 0;
+	width: 100%;
+}
+.digi-pagenation li a {
+	padding: 7px;
+}
+li.message-preview {
+	display: inline-block;
+	min-width: 270px !important;
+	width: auto;
+}
+.backForward {
+     clear: both;
+    display: table;
+}
+.backbtn, .forbtn{ width:100%; padding:15px 0; display:block; }
+.backbtn .btn:last-child, .forbtn .btn:last-child{ width: 190px;  }
+}
+
+/* Media Device 320px*/
+
+/*===========> ***Responsive CSS*** <===========*/
